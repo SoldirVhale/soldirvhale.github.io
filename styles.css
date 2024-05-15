@@ -138,7 +138,7 @@ footer p {
 
 }
 
-@media (min-width: 0px) and (max-width: 442px) {
+@media (min-width: 200px) and (max-width: 442px) {
   #welcome-section #main-title {
     font-size: 32px;
   }
