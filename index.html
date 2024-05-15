@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3d81f58312.js" crossorigin="anonymous"></script>
     <title>Vhale's Portfolio</title>
-  </head>
-  <body>
-
-    <!--START NAV-->
-    <nav id="navbar" class="nav">
-      <ul>
-        <li><a href="#welcome-section">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact-section">Contact</a></li>
-      </ul>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section" class="nav-link"><i class="fa-solid fa-code fa-bounce hidden-icon"></i> About</a></li>
+            <li><a href="#projects" class="nav-link"><i class="fa-solid fa-meteor fa-beat hidden-icon"></i> Projects</a></li>
+            <li><a href="#contact" class="nav-link"><i class="fa-solid fa-phone fa-shake hidden-icon"></i> Contact</a></li>
+        </ul>
     </nav>
-    <!--END NAV-->
-
-    <!--START WELCOME SECTION-->
-    <section id="welcome-section" class="welcome">
-      <h1>Hey! I am Vhale</h1>
-      <p class="p1">a web developer</p>
+    <div class="container"></div>
+    <section id="welcome-section">
+        <h1 id="main-title">Welcome! I am Vhale</h1>
+        <p id="main-p">a web developer<span class="dot dot1"> .</span><span class="dot dot2">.</span><span class="dot dot3">.</span></p>
     </section>
-    <!--END WELCOME SECTION-->
-
-    <!--START PROJECTS SECTION-->
-    <section id="projects" class="projects">
-    <h2>These are some of my projects</h2>
-    <div class=projects-grid>
-      
+    <hr>
+    <section id="projects" >
+        <h2 class="project-section-header">Here a list of my Projects!</h2>
+        <div class="project-grid">  
+        <a href="https://codepen.io/Vhale7/full/XWwJpPx" class="project-tile" target="_blank">
+            <img class="project-image" src="https://codepen.io/Vhale7/pen/XWwJpPx/image/small.png" alt="Survey Form">
+            <p class="project-title"><span class="code">< </span>Survey Form<span class="code"> /></span></p>
+        </a>
+        <a href="https://codepen.io/Vhale7/full/WNBbRaE" class="project-tile" target="_blank">
+            <img class="project-image" src="https://codepen.io/Vhale7/pen/WNBbRaE/image/small.png" alt="Tribute Page">
+            <p class="project-title"><span class="code">< </span>Tribute Page<span class="code"> /></span></p>
+        </a>
+        <a href="https://codepen.io/Vhale7/full/pomvRQL" class="project-tile" target="_blank">
+            <img class="project-image" src="https://codepen.io/Vhale7/pen/pomvRQL/image/small.png" alt="Documentation Page">
+            <p class="project-title"><span class="code">< </span>Documentation Page<span class="code"> /></span></p>
+        </a>
+        <a href="https://codepen.io/Vhale7/full/zYQxNMy" class="project-tile" target="_blank">
+            <img class="project-image" src="https://codepen.io/Vhale7/pen/zYQxNMy/image/small.png" alt="Landing Page">
+            <p class="project-title"><span class="code">< </span>Landing Page<span class="code"> /></span></p>
+        </a>
     </div>
-
-
+    <a href="https://codepen.io/Vhale7" target="_blank" class="show-all">Show all <i class="fa-solid fa-chevron-right fa-fade"></i></a>
     </section>
-    <!--END PROJECTS SECTION-->
-
-    <!--START CONTACT SECTION-->
-    <section id="contact-section" class="contact">
+    <section id="contact">
+        <h2>Let's get in contact!</h2>
+        <p>Looking forward to hearing from you!</p>
+        <div class="social">        
+             <a class="social-links" href="https://github.com/SoldirVhale" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+             <a class="social-links" href="https://codepen.io/Vhale7" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a>
+             <a class="social-links" href="https://www.linkedin.com/in/ema-sgu" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+             <a class="social-links" href="mailto:ema.sgu@outlook.com" target="_blank"><i class="fa-solid fa-envelope"></i> Send an email</a>
+             <a class="social-links" href="" target="_blank"><i class="fa-solid fa-mobile-button"></i> Call me</a>
+        </div>
     </section>
-    <!--END CONTACT SECTION-->
-
-    <!--START FOOTER SECTION-->
     <footer>
+        <p>Vhale ©️ freeCodeCamp Project</p>
     </footer>
-    <!--END FOOTER SECTION-->
-  </body>
-</html>  
+</body>
+</html>
