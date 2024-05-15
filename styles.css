@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (max-width: 768px) {
   #navbar {
       justify-content: center;
       align-items: center;
@@ -31,7 +31,7 @@
 
   .nav-link {
       padding: 10px;
-      font-size: 23px;
+      font-size: 20px;
   }
 
   #welcome-section #main-title {
@@ -136,6 +136,57 @@ footer p {
   font-size: 30px;
 }
 
+}
+
+@media (min-width: 0px) and (max-width: 442px) {
+  #welcome-section #main-title {
+    font-size: 32px;
+  }
+  
+  #welcome-section #main-p {
+    font-size: 25px;
+  }
+
+  #projects .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0 40px 0;
+  }
+
+  #projects .project-section-header {
+  font-size: 40px;
+  padding-top: 40px;
+  }
+
+  #projects .show-all {
+  padding: 20px;
+  font-size: 20px;
+  }
+
+  .project-grid .project-title {
+  font-size: 23px;
+  }
+
+  #contact #contact-head {
+  font-size: 30px;
+  }
+
+  #contact #contact-p {
+  font-size: 17px;
+  }
+
+  #contact .social-links {
+  font-size: 20px;
+  }
+
+  footer p {
+  font-size: 20px;
+  }
+  
+  .nav-link {
+    padding: 0px;
+    font-size: 14px;
+  }
 }
 
 /*NAVBAR*/
